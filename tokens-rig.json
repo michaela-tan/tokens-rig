@@ -62,7 +62,7 @@
         },
         "font-family": {
           "primary": {
-            "value": "Source Serif Pro, Tahoma, Verdana, sans-serif",
+            "value": "Figma Hand, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           },
           "secondary": {
@@ -517,8 +517,82 @@
               "type": "color"
             }
           }
+        },
+        "roze": {
+          "value": "#e095cf",
+          "type": "color",
+          "description": "roze is mooi!"
         }
       },
+      "border-radius": {
+        "sm": {
+          "value": "4px",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "8px",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "16px",
+          "type": "borderRadius"
+        },
+        "round": {
+          "value": "999px",
+          "type": "borderRadius"
+        }
+      },
+      "border-width": {
+        "sm": {
+          "value": "1px",
+          "type": "borderWidth"
+        },
+        "md": {
+          "value": "2px",
+          "type": "borderWidth"
+        },
+        "lg": {
+          "value": "4px",
+          "type": "borderWidth"
+        }
+      },
+      "box-shadow": {
+        "sm": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "6",
+            "spread": "0",
+            "color": "{voorbeeld.color.dark.alpha.100}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "md": {
+          "value": {
+            "x": "0",
+            "y": "8",
+            "blur": "16",
+            "spread": "0",
+            "color": "{voorbeeld.color.dark.alpha.100}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "lg": {
+          "value": {
+            "x": "0",
+            "y": "16",
+            "blur": "48",
+            "spread": "0",
+            "color": "{voorbeeld.color.dark.alpha.100}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    },
+    "blijdorp": {
       "space": {
         "inline": {
           "flea": {
@@ -768,38 +842,6 @@
           }
         }
       },
-      "border-radius": {
-        "sm": {
-          "value": "4px",
-          "type": "borderRadius"
-        },
-        "md": {
-          "value": "8px",
-          "type": "borderRadius"
-        },
-        "lg": {
-          "value": "16px",
-          "type": "borderRadius"
-        },
-        "round": {
-          "value": "999px",
-          "type": "borderRadius"
-        }
-      },
-      "border-width": {
-        "sm": {
-          "value": "1px",
-          "type": "borderWidth"
-        },
-        "md": {
-          "value": "2px",
-          "type": "borderWidth"
-        },
-        "lg": {
-          "value": "4px",
-          "type": "borderWidth"
-        }
-      },
       "size": {
         "5xs": {
           "value": "2px",
@@ -870,41 +912,6 @@
             "value": "48px",
             "type": "sizing"
           }
-        }
-      },
-      "box-shadow": {
-        "sm": {
-          "value": {
-            "x": "0",
-            "y": "2",
-            "blur": "6",
-            "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "md": {
-          "value": {
-            "x": "0",
-            "y": "8",
-            "blur": "16",
-            "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "lg": {
-          "value": {
-            "x": "0",
-            "y": "16",
-            "blur": "48",
-            "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
         }
       }
     }
@@ -1001,7 +1008,7 @@
       },
       "interaction": {
         "color": {
-          "value": "{voorbeeld.color.violet.700}",
+          "value": "{voorbeeld.color.roze}",
           "type": "color"
         },
         "active": {
@@ -1191,20 +1198,20 @@
       },
       "pointer-target": {
         "min-size": {
-          "value": "{voorbeeld.size.md}",
+          "value": "{blijdorp.size.md}",
           "type": "sizing"
         }
       },
       "icon": {
         "functional": {
           "size": {
-            "value": "{voorbeeld.size.icon.md}",
+            "value": "{blijdorp.size.icon.md}",
             "type": "sizing"
           }
         },
         "toptask": {
           "size": {
-            "value": "{voorbeeld.size.icon.4xl}",
+            "value": "{blijdorp.size.icon.4xl}",
             "type": "sizing"
           }
         }
@@ -1276,23 +1283,23 @@
             "type": "dimension"
           },
           "besties": {
-            "value": "{voorbeeld.space.row.snail}",
+            "value": "{blijdorp.space.row.snail}",
             "type": "dimension"
           },
           "vrienden": {
-            "value": "{voorbeeld.space.row.rat}",
+            "value": "{blijdorp.space.row.rat}",
             "type": "dimension"
           },
           "bekenden": {
-            "value": "{voorbeeld.space.row.cat}",
+            "value": "{blijdorp.space.row.cat}",
             "type": "dimension"
           },
           "onbekenden": {
-            "value": "{voorbeeld.space.row.pig}",
+            "value": "{blijdorp.space.row.pig}",
             "type": "dimension"
           },
           "onbemind": {
-            "value": "{voorbeeld.space.row.horse}",
+            "value": "{blijdorp.space.row.horse}",
             "type": "dimension"
           }
         }
@@ -1330,19 +1337,19 @@
             "value": "{voorbeeld.border-width.lg}"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.rabbit}",
+            "value": "{blijdorp.space.block.rabbit}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.rabbit}",
+            "value": "{blijdorp.space.block.rabbit}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           }
         },
@@ -1357,7 +1364,7 @@
           },
           "icon": {
             "margin-inline": {
-              "value": "{voorbeeld.space.text.mouse}",
+              "value": "{blijdorp.space.text.mouse}",
               "type": "spacing"
             },
             "size": {
@@ -1366,19 +1373,19 @@
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "hover": {
@@ -1487,7 +1494,7 @@
           }
         },
         "column-gap": {
-          "value": "{voorbeeld.space.column.snail}",
+          "value": "{blijdorp.space.column.snail}",
           "type": "spacing"
         },
         "border-width": {
@@ -1495,19 +1502,19 @@
           "type": "borderWidth"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.inline.mouse}",
+          "value": "{blijdorp.space.inline.mouse}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.mouse}",
+          "value": "{blijdorp.space.inline.mouse}",
           "type": "spacing"
         },
         "informative": {
@@ -1532,11 +1539,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -1614,21 +1621,21 @@
         },
         "message": {
           "row-gap": {
-            "value": "{voorbeeld.space.row.snail}",
+            "value": "{blijdorp.space.row.snail}",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.beetle}",
+            "value": "{blijdorp.space.block.beetle}",
             "type": "spacing"
           }
         },
         "content": {
           "row-gap": {
-            "value": "{voorbeeld.space.row.snail}",
+            "value": "{blijdorp.space.row.snail}",
             "type": "spacing"
           }
         }
@@ -1762,7 +1769,7 @@
             "type": "fontWeights"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "color": {
@@ -1793,11 +1800,11 @@
           }
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
@@ -1833,16 +1840,16 @@
               "value": "{utrecht.icon.functional.size}"
             },
             "margin-inline": {
-              "value": "{voorbeeld.space.text.beetle}",
+              "value": "{blijdorp.space.text.beetle}",
               "type": "spacing"
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -1905,7 +1912,7 @@
         "divider": {
           "size": {
             "type": "sizing",
-            "value": "{voorbeeld.size.2xs}"
+            "value": "{blijdorp.size.2xs}"
           },
           "color": {
             "value": "{utrecht.document.subtle.color}",
@@ -1913,7 +1920,7 @@
           }
         },
         "margin-inline": {
-          "value": "{voorbeeld.space.inline.beetle}",
+          "value": "{blijdorp.space.inline.beetle}",
           "type": "spacing"
         },
         "font-family": {
@@ -1947,7 +1954,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{utrecht.interaction.color}"
+            "value": "{voorbeeld.color.blue.500}"
           },
           "border-color": {
             "value": "transparent",
@@ -2104,7 +2111,7 @@
             "value": "{utrecht.icon.functional.size}"
           },
           "margin-inline": {
-            "value": "{voorbeeld.space.text.beetle}",
+            "value": "{blijdorp.space.text.beetle}",
             "type": "spacing"
           }
         },
@@ -2199,19 +2206,19 @@
           "type": "lineHeights"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.inline.mouse}",
+          "value": "{blijdorp.space.inline.mouse}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.mouse}",
+          "value": "{blijdorp.space.inline.mouse}",
           "type": "spacing"
         },
         "disabled": {
@@ -2289,7 +2296,7 @@
           "type": "color"
         },
         "column-gap": {
-          "value": "{voorbeeld.space.column.snail}",
+          "value": "{blijdorp.space.column.snail}",
           "type": "spacing"
         },
         "margin-block-end": {
@@ -2309,7 +2316,7 @@
           "type": "spacing"
         },
         "row-gap": {
-          "value": "{voorbeeld.space.row.snail}",
+          "value": "{blijdorp.space.row.snail}",
           "type": "spacing"
         }
       }
@@ -2324,7 +2331,7 @@
         },
         "size": {
           "type": "sizing",
-          "value": "{voorbeeld.size.xs}"
+          "value": "{blijdorp.size.xs}"
         },
         "icon": {
           "size": {
@@ -2589,15 +2596,15 @@
     "todo": {
       "checkbox-group": {
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{blijdorp.space.block.beetle}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{blijdorp.space.block.beetle}",
           "type": "spacing"
         },
         "row-gap": {
-          "value": "{voorbeeld.space.row.rat}",
+          "value": "{blijdorp.space.row.rat}",
           "type": "spacing"
         }
       }
@@ -2616,11 +2623,11 @@
         },
         "min-block-size": {
           "type": "sizing",
-          "value": "{voorbeeld.size.xs}"
+          "value": "{blijdorp.size.xs}"
         },
         "min-inline-size": {
           "type": "sizing",
-          "value": "{voorbeeld.size.xs}"
+          "value": "{blijdorp.size.xs}"
         },
         "font-weight": {
           "value": "{utrecht.document.strong.font-weight}",
@@ -2651,11 +2658,11 @@
           "value": "{utrecht.document.color}"
         },
         "padding-inline": {
-          "value": "{voorbeeld.space.inline.ant}",
+          "value": "{blijdorp.space.inline.ant}",
           "type": "spacing"
         },
         "padding-block": {
-          "value": "{voorbeeld.space.block.ant}",
+          "value": "{blijdorp.space.block.ant}",
           "type": "spacing"
         }
       }
@@ -2675,11 +2682,11 @@
           },
           "row": {
             "padding-block-end": {
-              "value": "{voorbeeld.space.block.snail}",
+              "value": "{blijdorp.space.block.snail}",
               "type": "spacing"
             },
             "padding-block-start": {
-              "value": "{voorbeeld.space.block.snail}",
+              "value": "{blijdorp.space.block.snail}",
               "type": "spacing"
             },
             "padding-inline-end": {
@@ -2692,11 +2699,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.ant}",
+            "value": "{blijdorp.space.block.ant}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -2715,15 +2722,15 @@
           },
           "row": {
             "padding-block-end": {
-              "value": "{voorbeeld.space.block.snail}",
+              "value": "{blijdorp.space.block.snail}",
               "type": "spacing"
             },
             "padding-block-start": {
-              "value": "{voorbeeld.space.block.snail}",
+              "value": "{blijdorp.space.block.snail}",
               "type": "spacing"
             },
             "padding-inline-end": {
-              "value": "{voorbeeld.space.inline.mouse}",
+              "value": "{blijdorp.space.inline.mouse}",
               "type": "spacing"
             },
             "padding-inline-start": {
@@ -2732,11 +2739,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.ant}",
+            "value": "{blijdorp.space.block.ant}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -2773,11 +2780,11 @@
         "item-action": {
           "row": {
             "padding-block-end": {
-              "value": "{voorbeeld.space.block.snail}",
+              "value": "{blijdorp.space.block.snail}",
               "type": "spacing"
             },
             "padding-block-start": {
-              "value": "{voorbeeld.space.block.snail}",
+              "value": "{blijdorp.space.block.snail}",
               "type": "spacing"
             },
             "padding-inline-end": {
@@ -2785,20 +2792,20 @@
               "type": "spacing"
             },
             "padding-inline-start": {
-              "value": "{voorbeeld.space.inline.mouse}",
+              "value": "{blijdorp.space.inline.mouse}",
               "type": "spacing"
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-start": {
@@ -2824,23 +2831,23 @@
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.beetle}",
+            "value": "{blijdorp.space.block.beetle}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.beetle}",
+            "value": "{blijdorp.space.block.beetle}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.beetle}",
+            "value": "{blijdorp.space.inline.beetle}",
             "type": "spacing"
           },
           "column-gap": {
-            "value": "{voorbeeld.space.column.snail}",
+            "value": "{blijdorp.space.column.snail}",
             "type": "spacing"
           },
           "border-color": {
@@ -2862,19 +2869,19 @@
             "value": "{voorbeeld.border-width.sm}"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.mouse}",
+            "value": "{blijdorp.space.block.mouse}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.mouse}",
+            "value": "{blijdorp.space.block.mouse}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "border-color": {
@@ -2892,15 +2899,15 @@
         },
         "content": {
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.rabbit}",
+            "value": "{blijdorp.space.block.rabbit}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.rabbit}",
+            "value": "{blijdorp.space.block.rabbit}",
             "type": "spacing"
           },
           "padding-inline": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           }
         },
@@ -2960,7 +2967,7 @@
             "type": "borderWidth"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           }
         }
@@ -2971,7 +2978,7 @@
     "todo": {
       "form-field-checkbox-option": {
         "column-gap": {
-          "value": "{voorbeeld.space.column.snail}",
+          "value": "{blijdorp.space.column.snail}",
           "type": "spacing"
         }
       }
@@ -3008,7 +3015,7 @@
             "value": "{utrecht.icon.functional.size}"
           },
           "margin-inline-end": {
-            "value": "{voorbeeld.space.text.mouse}",
+            "value": "{blijdorp.space.text.mouse}",
             "type": "spacing"
           }
         },
@@ -3093,7 +3100,7 @@
     "todo": {
       "form-field-radio-option": {
         "column-gap": {
-          "value": "{voorbeeld.space.column.snail}",
+          "value": "{blijdorp.space.column.snail}",
           "type": "spacing"
         }
       }
@@ -3239,19 +3246,19 @@
     "todo": {
       "icon-only-button": {
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{blijdorp.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{blijdorp.space.inline.snail}",
           "type": "spacing"
         }
       }
@@ -3330,7 +3337,7 @@
             "value": "{utrecht.icon.functional.size}"
           },
           "margin-inline": {
-            "value": "{voorbeeld.space.text.beetle}",
+            "value": "{blijdorp.space.text.beetle}",
             "type": "spacing"
           }
         },
@@ -3370,19 +3377,19 @@
         },
         "header": {
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.beetle}",
+            "value": "{blijdorp.space.block.beetle}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.beetle}",
+            "value": "{blijdorp.space.inline.beetle}",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.beetle}",
+            "value": "{blijdorp.space.block.beetle}",
             "type": "spacing"
           },
           "background-color": {
@@ -3416,7 +3423,7 @@
             "type": "color"
           },
           "column-gap": {
-            "value": "{voorbeeld.space.column.snail}",
+            "value": "{blijdorp.space.column.snail}",
             "type": "spacing"
           },
           "border-width": {
@@ -3438,19 +3445,19 @@
         },
         "footer": {
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.mouse}",
+            "value": "{blijdorp.space.block.mouse}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.mouse}",
+            "value": "{blijdorp.space.block.mouse}",
             "type": "spacing"
           },
           "background-color": {
@@ -3468,15 +3475,15 @@
         },
         "content": {
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.rabbit}",
+            "value": "{blijdorp.space.block.rabbit}",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.rabbit}",
+            "value": "{blijdorp.space.block.rabbit}",
             "type": "spacing"
           },
           "padding-inline": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           }
         },
@@ -3491,7 +3498,7 @@
     "utrecht": {
       "ordered-list": {
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.rabbit}",
+          "value": "{blijdorp.space.inline.rabbit}",
           "type": "spacing"
         },
         "color": {
@@ -3516,11 +3523,11 @@
         },
         "item": {
           "margin-block-end": {
-            "value": "{voorbeeld.space.block.ant}",
+            "value": "{blijdorp.space.block.ant}",
             "type": "spacing"
           },
           "margin-block-start": {
-            "value": "{voorbeeld.space.block.ant}",
+            "value": "{blijdorp.space.block.ant}",
             "type": "spacing"
           }
         }
@@ -3537,7 +3544,7 @@
           },
           "icon": {
             "margin-inline": {
-              "value": "{voorbeeld.space.text.beetle}",
+              "value": "{blijdorp.space.text.beetle}",
               "type": "spacing"
             },
             "size": {
@@ -3546,11 +3553,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-start": {
@@ -3694,19 +3701,19 @@
             "type": "borderRadius"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.snail}",
+            "value": "{blijdorp.space.inline.snail}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.snail}",
+            "value": "{blijdorp.space.inline.snail}",
             "type": "spacing"
           },
           "focus": {
@@ -3798,19 +3805,19 @@
         },
         "ellipses": {
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.ant}",
+            "value": "{blijdorp.space.inline.ant}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.ant}",
+            "value": "{blijdorp.space.inline.ant}",
             "type": "spacing"
           },
           "color": {
@@ -3924,12 +3931,12 @@
         },
         "size": {
           "type": "sizing",
-          "value": "{voorbeeld.size.xs}"
+          "value": "{blijdorp.size.xs}"
         },
         "dot": {
           "size": {
             "type": "sizing",
-            "value": "{voorbeeld.size.3xs}"
+            "value": "{blijdorp.size.3xs}"
           }
         },
         "background-color": {
@@ -4093,15 +4100,15 @@
     "todo": {
       "radio-group": {
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{blijdorp.space.block.beetle}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{blijdorp.space.block.beetle}",
           "type": "spacing"
         },
         "row-gap": {
-          "value": "{voorbeeld.space.row.rat}",
+          "value": "{blijdorp.space.row.rat}",
           "type": "spacing"
         }
       }
@@ -4197,19 +4204,19 @@
           }
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{blijdorp.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{blijdorp.space.inline.snail}",
           "type": "spacing"
         },
         "border-radius": {
@@ -4255,15 +4262,15 @@
           "type": "color"
         },
         "block-size": {
-          "value": "{voorbeeld.size.4xs}",
+          "value": "{blijdorp.size.4xs}",
           "type": "sizing"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         }
       }
@@ -4283,7 +4290,7 @@
               "value": "{utrecht.icon.functional.size}"
             },
             "margin-inline": {
-              "value": "{voorbeeld.space.text.mouse}",
+              "value": "{blijdorp.space.text.mouse}",
               "type": "spacing"
             }
           },
@@ -4348,11 +4355,11 @@
             }
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "text-decoration": {
@@ -4391,19 +4398,19 @@
           "value": "{utrecht.pointer-target.min-size}"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.inline.mouse}",
+          "value": "{blijdorp.space.inline.mouse}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.mouse}",
+          "value": "{blijdorp.space.inline.mouse}",
           "type": "spacing"
         },
         "focus": {
@@ -4479,11 +4486,11 @@
           "value": "{voorbeeld.border-radius.sm}"
         },
         "padding-inline": {
-          "value": "{voorbeeld.space.inline.ant}",
+          "value": "{blijdorp.space.inline.ant}",
           "type": "spacing"
         },
         "padding-block": {
-          "value": "{voorbeeld.space.block.flea}",
+          "value": "{blijdorp.space.block.flea}",
           "type": "spacing"
         },
         "informative": {
@@ -4588,7 +4595,7 @@
             "type": "lineHeights"
           },
           "margin-block-end": {
-            "value": "{voorbeeld.space.block.rabbit}",
+            "value": "{blijdorp.space.block.rabbit}",
             "type": "spacing"
           },
           "color": {
@@ -4610,19 +4617,19 @@
         },
         "cell": {
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{blijdorp.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{voorbeeld.space.inline.mouse}",
+            "value": "{blijdorp.space.inline.mouse}",
             "type": "spacing"
           }
         },
@@ -4748,12 +4755,12 @@
             }
           },
           "size": {
-            "value": "{voorbeeld.size.xs}",
+            "value": "{blijdorp.size.xs}",
             "type": "sizing"
           },
           "icon": {
             "size": {
-              "value": "{voorbeeld.size.icon.sm}",
+              "value": "{blijdorp.size.icon.sm}",
               "type": "sizing"
             }
           },
@@ -4794,20 +4801,20 @@
         },
         "item": {
           "column-gap": {
-            "value": "{voorbeeld.space.column.mouse}",
+            "value": "{blijdorp.space.column.mouse}",
             "type": "spacing"
           },
           "margin-block-end": {
-            "value": "{voorbeeld.space.block.ant}",
+            "value": "{blijdorp.space.block.ant}",
             "type": "spacing"
           },
           "margin-block-start": {
-            "value": "{voorbeeld.space.block.ant}",
+            "value": "{blijdorp.space.block.ant}",
             "type": "spacing"
           }
         },
         "row-gap": {
-          "value": "{voorbeeld.space.row.rat}",
+          "value": "{blijdorp.space.row.rat}",
           "type": "spacing"
         }
       }
@@ -4821,19 +4828,19 @@
           "type": "sizing"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{blijdorp.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{blijdorp.space.inline.snail}",
           "type": "spacing"
         },
         "background-color": {
@@ -4995,19 +5002,19 @@
           "type": "sizing"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{blijdorp.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.snail}",
+          "value": "{blijdorp.space.inline.snail}",
           "type": "spacing"
         },
         "background-color": {
@@ -5126,24 +5133,24 @@
       "toolbar-button": {
         "icon": {
           "margin-inline": {
-            "value": "{voorbeeld.space.text.beetle}",
+            "value": "{blijdorp.space.text.beetle}",
             "type": "spacing"
           }
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{blijdorp.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.inline.beetle}",
+          "value": "{blijdorp.space.inline.beetle}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.beetle}",
+          "value": "{blijdorp.space.inline.beetle}",
           "type": "spacing"
         }
       }
@@ -5183,16 +5190,16 @@
           "type": "lineHeights"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.inline.rabbit}",
+          "value": "{blijdorp.space.inline.rabbit}",
           "type": "spacing"
         },
         "item": {
           "margin-block-end": {
-            "value": "{voorbeeld.space.block.ant}",
+            "value": "{blijdorp.space.block.ant}",
             "type": "spacing"
           },
           "margin-block-start": {
-            "value": "{voorbeeld.space.block.ant}",
+            "value": "{blijdorp.space.block.ant}",
             "type": "spacing"
           }
         }
